@@ -52,10 +52,10 @@ namespace BareEssentials.Items
                         projectile.Kill();
                 }
 
-                var tempestPlayer = player.GetModPlayer<BareEssentialsPlayer>();
-                if (!tempestPlayer.RemorsePosition.Equals(Vector2.Zero))
+                var modPlayer = player.GetModPlayer<BareEssentialsPlayer>();
+                if (!modPlayer.RemorsePosition.Equals(Vector2.Zero))
                 {
-                    player.position = tempestPlayer.RemorsePosition;
+                    player.position = modPlayer.RemorsePosition;
                 }
             }
             else if (player.itemTime == totalUseTime / 2 - 1)
