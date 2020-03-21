@@ -1,1 +1,1 @@
-Bare Essentials is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+Bare Essentials adds a couple of utility items to the merchant.

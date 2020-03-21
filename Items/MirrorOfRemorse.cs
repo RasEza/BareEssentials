@@ -33,7 +33,7 @@ namespace BareEssentials.Items
 
             if (Main.rand.NextBool())
             {
-                Dust.NewDust(player.position, player.width, player.height, dustType, Alpha:150, newColor:Color.Black, Scale:1.7f);
+                Dust.NewDust(player.position, player.width, player.height, dustType, Alpha: 150, newColor: Color.Black, Scale: 1.7f);
             }
 
             if (player.itemTime == 0)
@@ -42,7 +42,7 @@ namespace BareEssentials.Items
             }
             else if (player.itemTime == totalUseTime / 2)
             {
-                Repeat(70,()=> Dust.NewDust(player.position, player.width, player.height, dustType, player.velocity.X * 0.5f,player.velocity.Y * 0.5f, 150, Color.Purple, 1.5f));
+                Repeat(70, () => Dust.NewDust(player.position, player.width, player.height, dustType, player.velocity.X * 0.5f, player.velocity.Y * 0.5f, 150, Color.Purple, 1.5f));
 
                 player.grappling[0] = -1;
                 player.grapCount = 0;

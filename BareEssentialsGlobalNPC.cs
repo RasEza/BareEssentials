@@ -7,9 +7,9 @@ namespace BareEssentials
 {
     public class BareEssentialsGlobalNPC : GlobalNPC
     {
-        public override void SetupShop(int type, Chest shop, ref int nextSlot) 
+        public override void SetupShop(int type, Chest shop, ref int nextSlot)
         {
-            if (type == NPCID.Merchant) 
+            if (type == NPCID.Merchant)
             {
                 shop.item[nextSlot].SetDefaults(ItemType<Items.CelestialStick>());
                 nextSlot++;
@@ -22,7 +22,7 @@ namespace BareEssentials
             }
         }
 
-        public override void EditSpawnRate(Player player, ref int spawnRate, ref int maxSpawns) 
+        public override void EditSpawnRate(Player player, ref int spawnRate, ref int maxSpawns)
         {
             if (player.GetModPlayer<BareEssentialsPlayer>().Horde)
             {
@@ -40,7 +40,7 @@ namespace BareEssentials
             if (player.GetModPlayer<BareEssentialsPlayer>().Peace)
             {
                 spawnRate = (int)(spawnRate * 50.0);
-                maxSpawns *= (int)(1.0/100);
+                maxSpawns *= (int)(1.0 / 100);
             }
         }
     }

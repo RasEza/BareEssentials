@@ -54,7 +54,7 @@ namespace BareEssentials.Items
                     Main.moonPhase = 0;
             }
             if (Main.netMode == 2)
-                NetMessage.SendData(7); 
+                NetMessage.SendData(7);
             return true;
         }
     }

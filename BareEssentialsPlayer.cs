@@ -13,7 +13,7 @@ namespace BareEssentials
 
         public override void ResetEffects()
         {
-            if (!Horde) 
+            if (!Horde)
                 HordeStacks = 1;
             Horde = false;
             Peace = false;
