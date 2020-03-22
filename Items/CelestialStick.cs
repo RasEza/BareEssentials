@@ -30,7 +30,7 @@ namespace BareEssentials.Items
 
         public override void AddRecipes()
         {
-            ModRecipe recipe = new ModRecipe(mod);
+            var recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.CelestialShell);
             recipe.AddIngredient(ItemID.Wood);
             recipe.AddTile(TileID.TinkerersWorkbench);
@@ -54,7 +54,7 @@ namespace BareEssentials.Items
                     Main.moonPhase = 0;
             }
             if (Main.netMode == 2)
-                NetMessage.SendData(7);
+                NetMessage.SendData(MessageID.WorldData);
             return true;
         }
     }

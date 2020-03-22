@@ -19,6 +19,8 @@ namespace BareEssentials
                 nextSlot++;
                 shop.item[nextSlot].SetDefaults(ItemType<Items.HordePotion>());
                 nextSlot++;
+                shop.item[nextSlot].SetDefaults(ItemType<Items.RainDoll>());
+                nextSlot++;
             }
         }
 
