@@ -59,7 +59,7 @@ namespace BareEssentials.Items
                 var modPlayer = player.GetModPlayer<BareEssentialsPlayer>();
                 if (!modPlayer.RemorsePosition.Equals(Vector2.Zero))
                 {
-                    player.position = modPlayer.RemorsePosition;
+                    player.TeleportPlayer(modPlayer.RemorsePosition, teleportStyle: -1 /* ensures we don't use a predefined style */);
                 }
             }
             else if (player.itemTime == totalUseTime / 2 - 1)
