@@ -5,3 +5,4 @@ Peace Potion - Stops enemies from spawning
 Horde Potion - Increase spawn rate A LOT
 Rain Doll - Toggles rain
 Celestial Stick - Switches between day and night
+Home Altar - A movable demonaltar

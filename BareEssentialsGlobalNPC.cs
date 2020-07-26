@@ -21,6 +21,8 @@ namespace BareEssentials
                 nextSlot++;
                 shop.item[nextSlot].SetDefaults(ItemType<Items.RainDoll>());
                 nextSlot++;
+                shop.item[nextSlot].SetDefaults(ItemType<Items.HomeAltar>());
+                nextSlot++;
             }
         }
 
