@@ -17,7 +17,7 @@ namespace BareEssentials.Items
         {
             item.width = 49;
             item.height = 49;
-            item.useStyle = 1;
+            item.useStyle = ItemUseStyleID.SwingThrow;
             item.useAnimation = 17;
             item.useTime = 17;
             item.useTurn = true;
@@ -49,10 +49,11 @@ namespace BareEssentials.Items
             {
                 Main.time = 0;
                 Main.dayTime = false;
-                Main.moonPhase = Main.moonPhase + 1;
+                Main.moonPhase += 1;
                 if (Main.moonPhase >= 8)
                     Main.moonPhase = 0;
             }
+
             if (Main.netMode == 2)
                 NetMessage.SendData(MessageID.WorldData);
             return true;

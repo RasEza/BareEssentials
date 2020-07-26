@@ -23,6 +23,10 @@ namespace BareEssentials
                 nextSlot++;
                 shop.item[nextSlot].SetDefaults(ItemType<Items.HomeAltar>());
                 nextSlot++;
+                shop.item[nextSlot].SetDefaults(ItemType<Items.RubyMedallion>());
+                nextSlot++;
+                shop.item[nextSlot].SetDefaults(ItemType<Items.BagOfSand>());
+                nextSlot++;
             }
         }
 

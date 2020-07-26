@@ -1,4 +1,5 @@
 ﻿using Terraria;
+using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace BareEssentials.Items
@@ -19,7 +20,7 @@ namespace BareEssentials.Items
             item.autoReuse = true;
             item.useAnimation = 15;
             item.useTime = 10;
-            item.useStyle = 1;
+            item.useStyle = ItemUseStyleID.SwingThrow;
             item.consumable = true;
             item.value = Item.buyPrice(gold: 1);
             item.createTile = ModContent.TileType<Tiles.HomeAltar>();

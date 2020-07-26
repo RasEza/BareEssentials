@@ -16,7 +16,7 @@ namespace BareEssentials.Items
             item.useTurn = true;
             item.width = 20;
             item.height = 20;
-            item.useStyle = 4;
+            item.useStyle = ItemUseStyleID.HoldingUp;
             item.useTime = 90;
             item.UseSound = SoundID.Item6;
             item.useAnimation = 90;
