@@ -1,1 +1,1 @@
-Bare Essentials: Big Melee is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+Introduces the Melee Enlarger, which is an accessory that doubles the size of most melee weapons.

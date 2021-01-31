@@ -1,4 +1,4 @@
-displayName = BareEssentials: Big Melee
+displayName = BareEssentials: Melee Enlarger
 modReferences = BareEssentials
 author = Rasy
 version = 1.0
