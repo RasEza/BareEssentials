@@ -1,3 +1,0 @@
-displayName = Bare Essentials
-author = Rasy
-version = 1.4.1

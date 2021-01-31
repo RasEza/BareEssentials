@@ -1,0 +1,1 @@
+Adds the Horde Potion, which increases spawn rate A LOT while it is active.

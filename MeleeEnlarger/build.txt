@@ -1,0 +1,4 @@
+displayName = BareEssentials: Big Melee
+modReferences = BareEssentials
+author = Rasy
+version = 1.0

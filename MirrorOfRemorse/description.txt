@@ -1,0 +1,1 @@
+Adds Mirror of Remorse - which is a somewhat OP item that returns the player to where they last died or recalled from.

@@ -1,0 +1,1 @@
+Adds the Rain Doll, which is a reusable item that toggles rain on and off.

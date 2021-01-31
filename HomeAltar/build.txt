@@ -1,0 +1,4 @@
+displayName = BareEssentials: Home Altar
+author = Rasy, Kgoyo
+modReferences = BareEssentials
+version = 1.0

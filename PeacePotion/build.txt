@@ -1,0 +1,4 @@
+displayName = BareEssentials: Peace Potion
+author = Rasy
+modReferences = BareEssentials
+version = 1.0

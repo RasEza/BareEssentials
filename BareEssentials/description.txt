@@ -1,0 +1,1 @@
+The base mod that the various "Bare Essentials" mods require.

@@ -1,0 +1,1 @@
+Adds the Peace Potion which stops enemies from spawning during its duration.

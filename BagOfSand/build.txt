@@ -1,0 +1,4 @@
+displayName = BareEssentials: Bag of Sand
+author = Rasy
+modReferences = BareEssentials
+version = 1.0
