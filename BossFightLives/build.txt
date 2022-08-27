@@ -1,4 +1,4 @@
-displayName = BareEssentials: Boss Fight Lives
+displayName = Boss Fight Lives
 author = Rasy (Implementer) and Kgoyo (Concept)
-version = 1.0.1
+version = 1.0.2
 side = both

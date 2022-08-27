@@ -18,7 +18,7 @@ namespace HomeAltar.Tiles
             Main.tileLavaDeath[Type] = false;
             TileID.Sets.DisableSmartCursor[Type] = true;
 
-            DustType = Mod.Find<ModDust>("Sparkle").Type;
+            DustType = DustID.Corruption;
             AdjTiles = new int[] { TileID.DemonAltar };
 
             TileObjectData.newTile.CopyFrom(TileObjectData.Style3x2);

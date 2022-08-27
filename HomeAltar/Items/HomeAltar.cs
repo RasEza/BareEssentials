@@ -8,7 +8,7 @@ namespace HomeAltar.Items
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("Your very own Demon altar for your home.");
+            Tooltip.SetDefault("Your very own Demon Altar for your home.");
         }
 
         public override void SetDefaults()

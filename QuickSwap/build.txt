@@ -1,6 +1,6 @@
-displayName = BareEssentials: Quick Swap
+displayName = Quick Swap
 author = Rasy
-version = 1.2.2
+version = 1.2.3
 hideCode = true
 hideResources = false
 includeSource = false
