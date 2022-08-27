@@ -1,1 +1,3 @@
 Adds the Celestial Stick which switches between day and night.
+
+Sold by the Merchant for 30 gold.

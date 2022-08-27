@@ -8,12 +8,12 @@ namespace QuickSwap
 
         public override bool PreItemCheck()
         { 
-            if (currentItem == player.selectedItem) 
+            if (currentItem == Player.selectedItem) 
                 return true;
 
-            player.itemAnimation = 0;
-            player.channel = false;
-            currentItem = player.selectedItem;
+            Player.itemAnimation = 0;
+            Player.channel = false;
+            currentItem = Player.selectedItem;
             return false;
         }
     }

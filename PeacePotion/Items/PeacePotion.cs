@@ -14,19 +14,19 @@ namespace PeacePotion.Items
 
         public override void SetDefaults()
         {
-            item.width = 20;
-            item.height = 30;
-            item.useStyle = ItemUseStyleID.EatingUsing;
-            item.useAnimation = 17;
-            item.useTime = 17;
-            item.useTurn = true;
-            item.UseSound = SoundID.Item3;
-            item.maxStack = 30;
-            item.consumable = true;
-            item.rare = ItemRarityID.Orange;
-            item.value = Item.buyPrice(gold: 5);
-            item.buffType = mod.BuffType("PeaceBuff");
-            item.buffTime = 18000;
+            Item.width = 20;
+            Item.height = 30;
+            Item.useStyle = ItemUseStyleID.EatFood;
+            Item.useAnimation = 17;
+            Item.useTime = 17;
+            Item.useTurn = true;
+            Item.UseSound = SoundID.Item3;
+            Item.maxStack = 30;
+            Item.consumable = true;
+            Item.rare = ItemRarityID.Orange;
+            Item.value = Item.buyPrice(gold: 5);
+            Item.buffType = Mod.Find<ModBuff>("PeaceBuff").Type;
+            Item.buffTime = 18000;
         }
     }
 }

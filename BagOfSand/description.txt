@@ -1,1 +1,3 @@
 Adds the Bag of Sand, which is a reusable item that toggles sandstorms.
+
+Sold by the Merchant for 10 gold.

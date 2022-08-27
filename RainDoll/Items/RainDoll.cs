@@ -15,30 +15,34 @@ namespace RainDoll.Items
 
         public override void SetDefaults()
         {
-            item.scale = 1.5f;
-            item.width = 17;
-            item.height = 23;
-            item.useStyle = ItemUseStyleID.HoldingUp;
-            item.holdStyle = ItemHoldStyleID.Default;
-            item.useAnimation = 40;
-            item.useTime = 17;
-            item.useTurn = true;
-            item.UseSound = SoundID.Item8;
-            item.maxStack = 1;
-            item.consumable = false;
-            item.rare = ItemRarityID.Orange;
-            item.value = Item.buyPrice(gold: 10);
+            Item.scale = 1.5f;
+            Item.width = 17;
+            Item.height = 23;
+            Item.useStyle = ItemUseStyleID.HoldUp;
+            Item.holdStyle = ItemHoldStyleID.None;
+            Item.useAnimation = 40;
+            Item.useTime = 17;
+            Item.useTurn = true;
+            Item.UseSound = SoundID.Item8;
+            Item.maxStack = 1;
+            Item.consumable = false;
+            Item.rare = ItemRarityID.Orange;
+            Item.value = Item.buyPrice(gold: 10);
         }
 
-        public override bool UseItem(Player player)
+        public override bool? UseItem(Player player)
         {
-            var methodName = Main.raining ? "StopRain" : "StartRain";
-
-            var method = typeof(Main).GetMethod(methodName,
-                BindingFlags.Static | BindingFlags.NonPublic);
-            method?.Invoke(null, null);
+            if (Main.raining)
+            {
+                Main.StopRain();
+            }
+            else
+            {
+                Main.StartRain();
+            }
 
             NetMessage.SendData(MessageID.WorldData);
+
             return true;
         }
     }

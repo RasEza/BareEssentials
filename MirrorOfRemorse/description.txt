@@ -1,1 +1,3 @@
 Adds Mirror of Remorse - which is a somewhat OP item that returns the player to where they last died or recalled from.
+
+Sold by the Merchant for 20 gold.

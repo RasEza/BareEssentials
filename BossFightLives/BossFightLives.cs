@@ -33,26 +33,6 @@ namespace BossFightLives
             }
         }
 
-        public override void ModifyInterfaceLayers(List<GameInterfaceLayer> layers)
-        {
-            var mouseTextIndex = layers.FindIndex(layer => layer.Name.Equals("Vanilla: Mouse Text"));
-            if (mouseTextIndex != -1)
-            {
-                layers.Insert(mouseTextIndex, new LegacyGameInterfaceLayer(
-                    $"{nameof(BossFightLives)}: UI",
-                    () =>
-                    {
-                        if (LifePool?.Enabled ?? false)
-                        {
-                            LifePool.Draw();
-                        }
-
-                        return true;
-                    },
-                    InterfaceScaleType.UI));
-            }
-        }
-
         public void ConfigureUi(BflClientConfig clientConfiguration)
         {
             if (LifePool != null)

@@ -1,1 +1,3 @@
 Adds the Ruby Medallion, which is a reusable item that toggles Blood Moon.
+
+Can be bought from the Merchant for 10 gold.

@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Terraria.GameContent.UI.Elements;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Config;
@@ -14,7 +15,7 @@ namespace BossFightLives.UI
 
         public override void OnInitialize()
         {
-            var texture = ModContent.GetTexture("BossFightLives/UI/head");
+            var texture = ModContent.Request<Texture2D>("BossFightLives/UI/head");
             var image = new UIImage(texture)
             {
                 VAlign = 0.5f

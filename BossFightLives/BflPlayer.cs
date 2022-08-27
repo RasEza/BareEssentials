@@ -14,7 +14,7 @@ namespace BossFightLives
                 BflWorld.Lives < 1 &&
                 BflWorld.IsBossActive)
             {
-                player.KillMe(PlayerDeathReason.ByCustomReason($"{player.name} disintegrated."), 0, 0);
+                Player.KillMe(PlayerDeathReason.ByCustomReason($"{Player.name} disintegrated."), 0, 0);
             }
         }
 
@@ -34,7 +34,7 @@ namespace BossFightLives
                 BflWorld.Lives < 1 && 
                 BflWorld.IsBossActive)
             {
-                player.respawnTimer++;
+                Player.respawnTimer++;
             }
         }
     }

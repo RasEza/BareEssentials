@@ -1,4 +1,4 @@
-displayName = BareEssentials: Bag of Sand
+displayName = Bag of Sand
 author = Rasy
 modReferences = BareEssentials
-version = 1.0
+version = 1.1

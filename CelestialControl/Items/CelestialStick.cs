@@ -10,35 +10,34 @@ namespace CelestialControl.Items
         {
             DisplayName.SetDefault("Celestial Stick");
             Tooltip.SetDefault("Swinging this stick changes night to day, or day to night");
-            Item.staff[item.type] = true;
+            Item.staff[Item.type] = true;
         }
 
         public override void SetDefaults()
         {
-            item.width = 49;
-            item.height = 49;
-            item.useStyle = ItemUseStyleID.SwingThrow;
-            item.useAnimation = 17;
-            item.useTime = 17;
-            item.useTurn = true;
-            item.UseSound = SoundID.Item8;
-            item.maxStack = 1;
-            item.consumable = false;
-            item.rare = ItemRarityID.Orange;
-            item.value = Item.buyPrice(gold: 30);
+            Item.width = 49;
+            Item.height = 49;
+            Item.useStyle = ItemUseStyleID.Swing;
+            Item.useAnimation = 17;
+            Item.useTime = 17;
+            Item.useTurn = true;
+            Item.UseSound = SoundID.Item8;
+            Item.maxStack = 1;
+            Item.consumable = false;
+            Item.rare = ItemRarityID.Orange;
+            Item.value = Item.buyPrice(gold: 30);
         }
 
         public override void AddRecipes()
         {
-            var recipe = new ModRecipe(mod);
+            var recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.CelestialShell);
             recipe.AddIngredient(ItemID.Wood);
             recipe.AddTile(TileID.TinkerersWorkbench);
-            recipe.SetResult(this);
-            recipe.AddRecipe();
+            recipe.Register();
         }
 
-        public override bool UseItem(Player player)
+        public override bool? UseItem(Player player)
         {
             if (!Main.dayTime)
             {

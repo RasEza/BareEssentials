@@ -1,4 +1,4 @@
-displayName = BareEssentials: Rain Doll
+displayName = Rain Doll
 author = Rasy
 modReferences = BareEssentials
-version = 1.0
+version = 1.1

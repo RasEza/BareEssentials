@@ -1,5 +1,5 @@
-Quick Swap is a pretty neat mod that removes the cooldown between swapping items on the hotbar.
+Quick Swap is a pretty neat mod that removes the cooldown and lock while and after using items, making it possible to quickly swap between items on the hotbar.
 
-Version 1.2: Potions are again usable while using a weapon!
+Beware: This mod uses IL editing. It may not work perfectly with all mods, and might have introduced a bunch of unforseen bugs.
 
-Beware: The mod might not work perfectly with all mods, and might have introduced a bunch of unforseen bugs.
+I have personally verified that it works with CalamityMod and several other mods.

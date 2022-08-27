@@ -1,4 +1,4 @@
-displayName = BareEssentials: Horde Potion
+displayName = Horde Potion
 author = Rasy
 modReferences = BareEssentials
-version = 1.0
+version = 1.1

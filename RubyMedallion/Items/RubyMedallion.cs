@@ -14,19 +14,19 @@ namespace RubyMedallion.Items
 
         public override void SetDefaults()
         {
-            item.scale = .5f;
-            item.width = 32;
-            item.height = 46;
-            item.useStyle = ItemUseStyleID.HoldingUp;
-            item.holdStyle = ItemHoldStyleID.Default;
-            item.useAnimation = 40;
-            item.useTime = 17;
-            item.useTurn = true;
-            item.UseSound = SoundID.Item8;
-            item.maxStack = 1;
-            item.consumable = false;
-            item.rare = ItemRarityID.Orange;
-            item.value = Item.buyPrice(gold: 10);
+            Item.scale = .5f;
+            Item.width = 32;
+            Item.height = 46;
+            Item.useStyle = ItemUseStyleID.HoldUp;
+            Item.holdStyle = ItemHoldStyleID.None;
+            Item.useAnimation = 40;
+            Item.useTime = 17;
+            Item.useTurn = true;
+            Item.UseSound = SoundID.Item8;
+            Item.maxStack = 1;
+            Item.consumable = false;
+            Item.rare = ItemRarityID.Orange;
+            Item.value = Item.buyPrice(gold: 10);
         }
 
         public override bool CanUseItem(Player player)
@@ -34,7 +34,7 @@ namespace RubyMedallion.Items
             return !Main.bloodMoon;
         }
 
-        public override bool UseItem(Player player)
+        public override bool? UseItem(Player player)
         {
             Main.bloodMoon = true;
 

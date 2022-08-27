@@ -1,4 +1,4 @@
-displayName = BareEssentials: Celestial Control
+displayName = Celestial Control
 author = Rasy
 modReferences = BareEssentials
-version = 1.0
+version = 1.1

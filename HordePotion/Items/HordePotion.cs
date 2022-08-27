@@ -14,19 +14,19 @@ namespace HordePotion.Items
 
         public override void SetDefaults()
         {
-            item.width = 22;
-            item.height = 34;
-            item.useStyle = ItemUseStyleID.EatingUsing;
-            item.useAnimation = 17;
-            item.useTime = 17;
-            item.useTurn = true;
-            item.UseSound = SoundID.Item3;
-            item.maxStack = 30;
-            item.consumable = true;
-            item.rare = ItemRarityID.Orange;
-            item.value = Item.buyPrice(gold: 5);
-            item.buffType = mod.BuffType("HordeBuff");
-            item.buffTime = 36000;
+            Item.width = 22;
+            Item.height = 34;
+            Item.useStyle = ItemUseStyleID.EatFood;
+            Item.useAnimation = 17;
+            Item.useTime = 17;
+            Item.useTurn = true;
+            Item.UseSound = SoundID.Item3;
+            Item.maxStack = 30;
+            Item.consumable = true;
+            Item.rare = ItemRarityID.Orange;
+            Item.value = Item.buyPrice(gold: 5);
+            Item.buffType = Mod.Find<ModBuff>("HordeBuff").Type;
+            Item.buffTime = 36000;
         }
     }
 }

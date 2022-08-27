@@ -1,1 +1,3 @@
 Adds the Rain Doll, which is a reusable item that toggles rain on and off.
+
+Sold by the Merchant for 10 gold.

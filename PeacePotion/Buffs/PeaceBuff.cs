@@ -5,7 +5,7 @@ namespace PeacePotion.Buffs
 {
     class PeaceBuff : ModBuff
     {
-        public override void SetDefaults()
+        public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Peace");
             Description.SetDefault("Stops all monster spawns");

@@ -1,1 +1,3 @@
 Adds the Peace Potion which stops enemies from spawning during its duration.
+
+Sold by the Merchant for 5 gold.

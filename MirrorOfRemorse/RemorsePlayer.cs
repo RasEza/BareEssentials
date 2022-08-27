@@ -10,7 +10,7 @@ namespace MirrorOfRemorse
 
         public override void Kill(double damage, int hitDirection, bool pvp, PlayerDeathReason damageSource)
         {
-            RemorsePosition = player.position;
+            RemorsePosition = Player.position;
         }
     }
 }

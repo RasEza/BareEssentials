@@ -1,1 +1,3 @@
 Adds the Horde Potion, which increases spawn rate A LOT while it is active.
+
+Can be bought from the Merchant for 5 gold.

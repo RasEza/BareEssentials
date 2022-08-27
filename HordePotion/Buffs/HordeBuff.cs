@@ -6,7 +6,7 @@ namespace HordePotion.Buffs
 {
     class HordeBuff : ModBuff
     {
-        public override void SetDefaults()
+        public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Horde");
             Description.SetDefault("Increases spawn rate significantly");

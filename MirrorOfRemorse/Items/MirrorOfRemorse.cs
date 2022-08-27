@@ -14,24 +14,24 @@ namespace MirrorOfRemorse.Items
 
         public override void SetDefaults()
         {
-            item.useTurn = true;
-            item.width = 20;
-            item.height = 20;
-            item.useStyle = ItemUseStyleID.HoldingUp;
-            item.useTime = 90;
-            item.UseSound = SoundID.Item6;
-            item.useAnimation = 90;
-            item.rare = ItemRarityID.LightRed;
-            item.value = Item.buyPrice(gold: 20);
+            Item.useTurn = true;
+            Item.width = 20;
+            Item.height = 20;
+            Item.useStyle = ItemUseStyleID.HoldUp;
+            Item.useTime = 90;
+            Item.UseSound = SoundID.Item6;
+            Item.useAnimation = 90;
+            Item.rare = ItemRarityID.LightRed;
+            Item.value = Item.buyPrice(gold: 20);
         }
 
         public override bool CanUseItem(Player player) =>
             !player.GetModPlayer<RemorsePlayer>().RemorsePosition.Equals(Vector2.Zero);
 
-        public override void UseStyle(Player player)
+        public override void UseStyle(Player player, Rectangle heldItemFrame)
         {
             const int dustType = 27;
-            var totalUseTime = PlayerHooks.TotalUseTime(item.useTime, player, item);
+            var totalUseTime = CombinedHooks.TotalUseTime(Item.useTime, player, Item);
 
             if (Main.rand.NextBool())
             {

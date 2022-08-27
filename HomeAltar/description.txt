@@ -1,1 +1,3 @@
 Adds a craftable demonaltar.
+
+Can be bought from the Merchant for 1 gold.
