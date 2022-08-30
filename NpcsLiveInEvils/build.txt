@@ -1,0 +1,3 @@
+displayName = Npcs Live In Evils
+author = Rasy
+version = 0.1
