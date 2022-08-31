@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30503.244
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32804.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BareEssentials", "BareEssentials\BareEssentials.csproj", "{DAFB7851-472B-4F53-A430-6D8D9E9D7FB7}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RubyMedallion", "RubyMedallion\RubyMedallion.csproj", "{A00C1ADA-1682-4CE3-BD69-B574A0496DE3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{F92F81E5-FFE5-48BE-B61C-9B18802C28DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NpcsLiveInEvils", "NpcsLiveInEvils\NpcsLiveInEvils.csproj", "{1FAB3FBA-B21A-4237-AAFA-74C8C3000E76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{A00C1ADA-1682-4CE3-BD69-B574A0496DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A00C1ADA-1682-4CE3-BD69-B574A0496DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A00C1ADA-1682-4CE3-BD69-B574A0496DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAB3FBA-B21A-4237-AAFA-74C8C3000E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAB3FBA-B21A-4237-AAFA-74C8C3000E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAB3FBA-B21A-4237-AAFA-74C8C3000E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAB3FBA-B21A-4237-AAFA-74C8C3000E76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
