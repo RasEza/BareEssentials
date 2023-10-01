@@ -6,15 +6,15 @@ namespace BareEssentials
 {
     public class BareEssentialsGlobalNpc : GlobalNPC
     {
-        public override void SetupShop(int type, Chest shop, ref int nextSlot)
+        public override void ModifyShop(NPCShop shop)
         {
             var shopInventory = GetInstance<BareEssentials>().ShopInventoryDictionary;
-            if (shopInventory.TryGetValue(type, out var inventory))
+            
+            if (shopInventory.TryGetValue(shop.NpcType, out var inv))
             {
-                foreach (var (preferredIndex, itemId) in inventory)
+                foreach (var (_, itemId) in inv)
                 {
-                    shop.item[nextSlot].SetDefaults(itemId);
-                    nextSlot++;
+                    shop.Add(itemId);
                 }
             }
         }
