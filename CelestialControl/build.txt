@@ -1,4 +1,4 @@
 displayName = Celestial Control
 author = Rasy
 modReferences = BareEssentials
-version = 1.1.1
+version = 1.1.2
