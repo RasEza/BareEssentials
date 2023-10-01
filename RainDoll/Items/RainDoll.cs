@@ -9,8 +9,8 @@ namespace RainDoll.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Rain Doll");
-            Tooltip.SetDefault("Starts and stops rain on command");
+            // DisplayName.SetDefault("Rain Doll");
+            // Tooltip.SetDefault("Starts and stops rain on command");
         }
 
         public override void SetDefaults()

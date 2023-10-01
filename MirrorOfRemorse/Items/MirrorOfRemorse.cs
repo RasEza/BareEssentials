@@ -9,8 +9,8 @@ namespace MirrorOfRemorse.Items
 {
     class MirrorOfRemorse : ModItem
     {
-        public override void SetStaticDefaults() => 
-            Tooltip.SetDefault("Oops, let's try that again");
+        /* public override void SetStaticDefaults() => 
+            Tooltip.SetDefault("Oops, let's try that again"); */
 
         public override void SetDefaults()
         {

@@ -8,8 +8,8 @@ namespace PeacePotion.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Peace Potion");
-            Tooltip.SetDefault("Stops all monster spawns");
+            // DisplayName.SetDefault("Peace Potion");
+            // Tooltip.SetDefault("Stops all monster spawns");
         }
 
         public override void SetDefaults()

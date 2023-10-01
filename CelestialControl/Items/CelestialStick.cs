@@ -8,8 +8,8 @@ namespace CelestialControl.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Celestial Stick");
-            Tooltip.SetDefault("Swinging this stick changes night to day, or day to night");
+            // DisplayName.SetDefault("Celestial Stick");
+            // Tooltip.SetDefault("Swinging this stick changes night to day, or day to night");
             Item.staff[Item.type] = true;
         }
 

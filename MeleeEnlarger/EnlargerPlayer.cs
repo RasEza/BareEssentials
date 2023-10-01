@@ -13,11 +13,11 @@ namespace MeleeEnlarger
 
         public override bool PreItemCheck()
         {
-            if (!player.HeldItem.IsAir)
+            if (!Player.HeldItem.IsAir)
             {
-                if (player.HeldItem.melee)
+                if (Player.HeldItem.CountsAsClass(DamageClass.Melee))
                 {
-                    player.HeldItem.scale = player.HeldItem.GetGlobalItem<EnlargerGlobalItem>().ActualScale * player.GetModPlayer<EnlargerPlayer>().ScaleMultiplier;
+                    Player.HeldItem.scale = Player.HeldItem.GetGlobalItem<EnlargerGlobalItem>().ActualScale * Player.GetModPlayer<EnlargerPlayer>().ScaleMultiplier;
                 }
             }
             return base.PreItemCheck();

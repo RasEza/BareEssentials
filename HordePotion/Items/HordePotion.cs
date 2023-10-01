@@ -8,8 +8,8 @@ namespace HordePotion.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Horde Potion");
-            Tooltip.SetDefault("Increases spawn rate by a whole lot...");
+            // DisplayName.SetDefault("Horde Potion");
+            // Tooltip.SetDefault("Increases spawn rate by a whole lot...");
         }
 
         public override void SetDefaults()

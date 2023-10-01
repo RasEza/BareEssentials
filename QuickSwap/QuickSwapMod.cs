@@ -12,8 +12,8 @@ namespace QuickSwap
         public override void Load()
         {
             Instance = this;
-            IL.Terraria.Player.Update += UpdatePatch;
-            IL.Terraria.Player.ScrollHotbar += ScrollHotbarPatch;
+            Terraria.IL_Player.Update += UpdatePatch;
+            Terraria.IL_Player.ScrollHotbar += ScrollHotbarPatch;
         }
 
         public override void Unload()

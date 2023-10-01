@@ -8,8 +8,8 @@ namespace HordePotion.Buffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Horde");
-            Description.SetDefault("Increases spawn rate significantly");
+            // DisplayName.SetDefault("Horde");
+            // Description.SetDefault("Increases spawn rate significantly");
             Main.buffNoTimeDisplay[Type] = false;
         }
 

@@ -7,7 +7,7 @@ namespace MeleeEnlarger
     {
         public float ActualScale = 1f;
         public override bool InstancePerEntity => true;
-        public override bool CloneNewInstances => true;
+        protected override bool CloneNewInstances => true;
 
         public override void SetDefaults(Item item)
         {

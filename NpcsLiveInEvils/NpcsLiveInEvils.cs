@@ -9,7 +9,7 @@ namespace NpcsLiveInEvils
 	{
         public override void Load()
         {
-            IL.Terraria.WorldGen.ScoreRoom += NpcHouseScorePatch;
+            Terraria.IL_WorldGen.ScoreRoom += NpcHouseScorePatch;
         }
 
         // Removes call to GetTileTypeCountByCategory in ScoreRoom method

@@ -10,8 +10,8 @@ namespace BagOfSand.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Bag of Sand");
-            Tooltip.SetDefault("Starts and stops sandstorms");
+            // DisplayName.SetDefault("Bag of Sand");
+            // Tooltip.SetDefault("Starts and stops sandstorms");
         }
 
         public override void SetDefaults()

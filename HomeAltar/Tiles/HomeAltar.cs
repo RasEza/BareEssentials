@@ -28,7 +28,7 @@ namespace HomeAltar.Tiles
             AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTable);
             
             var name = CreateMapEntryName();
-            name.SetDefault("Home Altar");
+            // name.SetDefault("Home Altar");
             AddMapEntry(new Color(200, 200, 200), name);            
         }
 

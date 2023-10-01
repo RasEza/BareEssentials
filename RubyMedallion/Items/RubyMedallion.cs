@@ -8,8 +8,8 @@ namespace RubyMedallion.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Ruby Medallion");
-            Tooltip.SetDefault("Used to start the blood moon.");
+            // DisplayName.SetDefault("Ruby Medallion");
+            // Tooltip.SetDefault("Used to start the blood moon.");
         }
 
         public override void SetDefaults()

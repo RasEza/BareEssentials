@@ -8,17 +8,17 @@ namespace MeleeEnlarger.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Melee Enlarger");
-            Tooltip.SetDefault("Makes your weapon BIG!");
+            // DisplayName.SetDefault("Melee Enlarger");
+            // Tooltip.SetDefault("Makes your weapon BIG!");
         }
 
         public override void SetDefaults()
         {
-            item.value = Item.buyPrice(gold: 5);
-            item.rare = ItemRarityID.Green;
-            item.width = 17;
-            item.height = 23;
-            item.accessory = true;
+            Item.value = Item.buyPrice(gold: 5);
+            Item.rare = ItemRarityID.Green;
+            Item.width = 17;
+            Item.height = 23;
+            Item.accessory = true;
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual)

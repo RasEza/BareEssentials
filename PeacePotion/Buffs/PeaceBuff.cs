@@ -7,8 +7,8 @@ namespace PeacePotion.Buffs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Peace");
-            Description.SetDefault("Stops all monster spawns");
+            // DisplayName.SetDefault("Peace");
+            // Description.SetDefault("Stops all monster spawns");
             Main.buffNoTimeDisplay[Type] = false;
         }
 
