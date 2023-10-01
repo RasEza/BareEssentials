@@ -1,0 +1,18 @@
+
+Mods: {
+	PeacePotion: {
+		Buffs: {
+			PeaceBuff: {
+				DisplayName: Peace
+				Description: Stops all monster spawns
+			}
+		}
+
+		Items: {
+			PeacePotion: {
+				DisplayName: Peace Potion
+				Tooltip: Stops all monster spawns
+			}
+		}
+	}
+}

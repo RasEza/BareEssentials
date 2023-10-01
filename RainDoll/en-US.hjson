@@ -1,0 +1,11 @@
+
+Mods: {
+	RainDoll: {
+		Items: {
+			RainDoll: {
+				DisplayName: Rain Doll
+				Tooltip: Starts and stops rain on command
+			}
+		}
+	}
+}

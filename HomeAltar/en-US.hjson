@@ -1,0 +1,13 @@
+
+Mods: {
+	HomeAltar: {
+		Items: {
+			HomeAltar: {
+				DisplayName: Home Altar
+				Tooltip: Your very own Demon Altar for your home.
+			}
+		}
+
+		Tiles.HomeAltar.MapEntry: Home Altar
+	}
+}

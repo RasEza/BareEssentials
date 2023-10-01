@@ -1,0 +1,11 @@
+
+Mods: {
+	RubyMedallion: {
+		Items: {
+			RubyMedallion: {
+				DisplayName: Ruby Medallion
+				Tooltip: Used to start the blood moon.
+			}
+		}
+	}
+}

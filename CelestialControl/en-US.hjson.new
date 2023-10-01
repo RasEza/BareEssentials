@@ -1,0 +1,11 @@
+
+Mods: {
+	CelestialControl: {
+		Items: {
+			CelestialStick: {
+				DisplayName: Celestial Stick
+				Tooltip: Swinging this stick changes night to day, or day to night
+			}
+		}
+	}
+}

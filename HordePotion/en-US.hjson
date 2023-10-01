@@ -1,0 +1,18 @@
+
+Mods: {
+	HordePotion: {
+		Buffs: {
+			HordeBuff: {
+				DisplayName: Horde
+				Description: Increases spawn rate significantly
+			}
+		}
+
+		Items: {
+			HordePotion: {
+				DisplayName: Horde Potion
+				Tooltip: Increases spawn rate by a whole lot...
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+
+Mods: {
+	BagOfSand: {
+		Items: {
+			BagOfSand: {
+				DisplayName: Bag of Sand
+				Tooltip: Starts and stops sandstorms
+			}
+		}
+	}
+}

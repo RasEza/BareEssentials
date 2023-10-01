@@ -1,0 +1,11 @@
+
+Mods: {
+	MirrorOfRemorse: {
+		Items: {
+			MirrorOfRemorse: {
+				DisplayName: Mirror Of Remorse
+				Tooltip: Oops, let's try that again
+			}
+		}
+	}
+}
